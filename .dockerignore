@@ -1,4 +1,6 @@
 # vim: set fenc=utf-8 ts=4 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}:
-lbmk
+
 .env
 .git
+lbmk
+libreboot-lbmk.tar

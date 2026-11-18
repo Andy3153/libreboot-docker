@@ -47,7 +47,7 @@ Example:
 Example:
 ```console
 ./mk -b coreboot lenovo_thinkpad_x280_16mb
-./mk inject "bin/libreboot-*" setmac d3:4d:b3:3f:31:53
+./mk inject "bin/libreboot-*" setmac de:ad:be:ef:31:53
 ```
 
 # Other info

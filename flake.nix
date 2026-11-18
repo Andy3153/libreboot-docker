@@ -132,5 +132,5 @@
 /* {{{ Commands
 ./mk -m coreboot lenovo_thinkpad_x280_16mb
 ./mk -b coreboot lenovo_thinkpad_x280_16mb
-./mk inject "bin/libreboot-26.11_lenovo_thinkpad_x280_16mb.tar.xz" setmac d3:4d:b3:3f:31:53
+./mk inject "bin/libreboot-26.11_lenovo_thinkpad_x280_16mb.tar.xz" setmac de:ad:be:ef:31:53
    }}} */
