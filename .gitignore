@@ -1,0 +1,21 @@
+# vim: set fenc=utf-8 ts=4 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}:
+**/*.bak
+**/*.old
+**/.directory
+**/*.kate-swp
+**/*.kdev4
+**/.idea
+**/*.aux
+**/*.log
+**/*.out
+**/*.synctex.gz
+**/*.toc
+**/*.pyg
+**/*.latexrun.db
+**/*.latexrun.db.lock
+**/*.fdb_latexmk
+**/*.fls
+**/*.xdv
+
+/.env
+/lbmk

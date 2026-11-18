@@ -1,0 +1,22 @@
+# vim: set fenc=utf-8 ts=2 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}:
+
+services:
+  lbmk:
+    container_name: lbmk
+    stdin_open: true
+    tty: true
+
+    build:
+      context: .
+      args:
+        USER_UID: ${UID:-1000}
+        USER_GID: ${GID:-1000}
+
+    environment:
+      GIT_USER_EMAIL: ${GIT_USER_EMAIL:-}
+      GIT_USER_NAME:  ${GIT_USER_NAME:-}
+      LBMK_REPO:      https://codeberg.org/libreboot/lbmk.git
+      XBMK_THREADS:   ${XBMK_THREADS:-6}
+
+    volumes:
+      - .:/work
