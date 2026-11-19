@@ -1,7 +1,5 @@
 <!-- vim: set fenc=utf-8 ts=2 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}:  -->
 
-<!-- config file: ./src/coreboot/default/.config -->
-
 # libreboot-docker
 Docker image to compile Libreboot
 
@@ -42,6 +40,10 @@ Example:
 ```console
 ./mk -m coreboot lenovo_thinkpad_x280_16mb
 ```
+```
+Chipset/Enable Hyper-Threading
+Chipset/Swap Fn and Ctrl keys
+```
 
 # Building
 Example:
@@ -51,6 +53,7 @@ Example:
 ```
 
 # Other info
+- `copy_to_lbmk` are the extra files I need when compiling for myself
 - The Nix flake is a failed attempt before I went for the Docker image approach
-- It'll take a long time to build the Docker image
+- It'll take some time to build the Docker image, it cross-builds stuff from the AUR (dependencies of lbmk)
 - This was made for personal use mostly, I'll provide help if asked but I don't think I'll be going out of my way to make this user friendly, at least not for now
